@@ -1,0 +1,28 @@
+
+$primary-color: #3498db;
+$hover-color: #2980b9;
+$font-family: 'Arial, sans-serif';
+
+body {
+    font-family: $font-family;
+    background-color: #f4f4f4;
+    color: #333;
+
+    h1 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .btn {
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $hover-color;
+        }
+    }
+}
+
